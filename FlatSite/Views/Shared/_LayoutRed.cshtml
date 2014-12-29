@@ -14,16 +14,16 @@
     <script src="~/Scripts/common.js"></script>
 </head>
 <body>
-    <div id="main_div">
+    <div class="wrapper">
         <div class="nav_div">
             <nav>
                 <div class="main_menu">
                     <a href="@Url.Action("ReserverAndPaid","Home")"><div class="main_menu_el mm_l">Бронирование и оплата</div></a>
                     <a href="#"><div class="main_menu_el">Вопросы и ответы</div></a>
                     <a href="#"><div class="main_menu_el"> Отзывы гостей</div></a>
-                    <a href="#"><div class="main_menu_el">Сотрудничество</div></a>
-                    <a href="#"><div class="main_menu_el">Партнеры</div></a>
-                    <a href="#"><div class="main_menu_el mm_r">Контакты</div></a>
+                    <a href="@Url.Action("Cooperation","Home")"><div class="main_menu_el">Сотрудничество</div></a>
+                    <a href="@Url.Action("Parnters","Home")"><div class="main_menu_el">Партнеры</div></a>
+                    <a href="@Url.Action("Contacts","Home")"><div class="main_menu_el mm_r">Контакты</div></a>
                 </div>
             </nav>
         </div>
@@ -87,7 +87,7 @@
                                             </tbody>
                                         </table>
                                     </span>
-                                    <div class="allprices">
+                                    <!--<div class="allprices">
                                         <div class="allprices_title">
                                             Стоимость проживания:
                                         </div>
@@ -99,7 +99,7 @@
                                             <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
                                             <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
 
 
@@ -146,7 +146,7 @@
                                             </tbody>
                                         </table>
                                     </span>
-                                    <div class="allprices">
+                                    <!--<div class="allprices">
                                         <div class="allprices_title">
                                             Стоимость проживания:
                                         </div>
@@ -158,7 +158,7 @@
                                             <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
                                             <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div>
@@ -204,7 +204,7 @@
                                             </tbody>
                                         </table>
                                     </span>
-                                    <div class="allprices">
+                                    <!--<div class="allprices">
                                         <div class="allprices_title">
                                             Стоимость проживания:
                                         </div>
@@ -216,7 +216,7 @@
                                             <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
                                             <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div>
@@ -261,7 +261,7 @@
                                             </tbody>
                                         </table>
                                     </span>
-                                    <div class="allprices">
+                                    <!--<div class="allprices">
                                         <div class="allprices_title">
                                             Стоимость проживания:
                                         </div>
@@ -273,7 +273,7 @@
                                             <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
                                             <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div>
@@ -321,7 +321,7 @@
                                             </tbody>
                                         </table>
                                     </span>
-                                    <div class="allprices">
+                                    <!--<div class="allprices">
                                         <div class="allprices_title">
                                             Стоимость проживания:
                                         </div>
@@ -333,7 +333,7 @@
                                             <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
                                             <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div>
@@ -377,7 +377,7 @@
                                             </tbody>
                                         </table>
                                     </span>
-                                    <div class="allprices">
+                                    <!--<div class="allprices">
                                         <div class="allprices_title">
                                             Стоимость проживания:
                                         </div>
@@ -389,7 +389,7 @@
                                             <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
                                             <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div>
@@ -422,7 +422,9 @@
         <div class="article_div">
             @RenderBody()
         </div>
-        <div class="footer_div">
+        <div class="footer-push"></div>
+    </div>
+        <div class="footer">
             <footer>
                 <center>
                     <div class="footer_el">© 2014 SutkiHouse</div>
@@ -444,6 +446,6 @@
                 </center>
             </footer>
         </div>
-    </div>	    
+    	    
 </body>
 </html>

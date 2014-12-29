@@ -53,7 +53,7 @@ input[type="checkbox"].input-validation-error {
 			.article_div{
 				background: #fff;
 			}
-			.footer_div{
+			.footer{
 				background: #C11B0B;
 				height: 130px;
 			}
@@ -373,10 +373,23 @@ input[type="checkbox"].input-validation-error {
             .allprices_list_black{
                 color: #000;
             }   
-            .wrap{
-                min-height: 100%;
-                  position: relative;
-                  padding-bottom: 140px;
-            }
+            html, body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.wrapper {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 0 -130px 0; /* отрицательный нижний отступ на высоту футера */
+		padding: 0;
+	}
+	.footer-push, .footer {
+		height: 130px;
+		margin: 0;
+		padding: 0;
+	}
+	
             
             

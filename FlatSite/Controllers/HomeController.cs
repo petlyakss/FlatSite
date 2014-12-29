@@ -26,5 +26,17 @@ namespace FlatSite.Controllers
         {
             return View();
         }
+        public ActionResult Contacts()
+        {
+            return View();
+        }
+        public ActionResult Partners()
+        {
+            return View();
+        }
+        public ActionResult Cooperation()
+        {
+            return View();
+        }
     }
 }
