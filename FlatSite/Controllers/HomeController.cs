@@ -38,5 +38,14 @@ namespace FlatSite.Controllers
         {
             return View();
         }
+        public ActionResult QuestionsAndAnswers()
+        {
+            return View();
+        }
+        public ActionResult Reviews()
+        {
+            return View();
+        }
+        
     }
 }

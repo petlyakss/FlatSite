@@ -229,6 +229,8 @@
     <Content Include="Views\Home\Contacts.cshtml" />
     <Content Include="Views\Home\Partners.cshtml" />
     <Content Include="Views\Home\Cooperation.cshtml" />
+    <Content Include="Views\Home\Reviews.cshtml" />
+    <Content Include="Views\Home\QuestionsAndAnswers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
