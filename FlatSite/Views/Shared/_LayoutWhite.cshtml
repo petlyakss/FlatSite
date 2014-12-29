@@ -1,0 +1,101 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bcms.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main_div">
+        <div class="nav_div white_bg">
+            <nav class="white_bg">
+                <div class="main_menu">
+                    <a href="@Url.Action("ReserverAndPaid","Home")"><div class="main_menu_el mm_l">Бронирование и оплата</div></a>
+                    <a href="#"><div class="main_menu_el">Вопросы и ответы</div></a>
+                    <a href="#"><div class="main_menu_el"> Отзывы гостей</div></a>
+                    <a href="#"><div class="main_menu_el">Сотрудничество</div></a>
+                    <a href="#"><div class="main_menu_el">Партнеры</div></a>
+                    <a href="#"><div class="main_menu_el mm_r">Контакты</div></a>
+                </div>
+            </nav>
+        </div>
+        <div class="header_div white_bg">
+            <header class="white_bg white_header">
+                <div class="header_logo">
+                    <div class="header_logo_bl hlb_left">
+                        <a href="@Url.Action("Index","Home")">
+                            <img src="~/Content/images/logo_white.jpg" />
+                        </a>
+                    </div>
+                    <div class="header_logo_bl hlb_center">
+                        <div style="border: 0px solid #fff; height: 20px;">
+                            <a href="" class="red_text">
+                                Красногорск
+                            </a>
+                            <a href="" class="red_text">
+                                Москва
+                            </a>
+                        </div>
+                        <div style="border: 0px solid #fff; height: 20px; margin-top: 3px; display: none;">
+                            <a href="" class="red_text">
+                                одна спальня
+                            </a>
+                            <a href="" class="red_text">
+                                две спальни
+                            </a>
+                            <a href="" class="red_text">
+                                три спальни
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_logo_bl hlb">
+                        <img src="~/Content/images/time_white.jpg" style="float: left; margin-right: 10px; " />
+                        <p class="header_tel black_text">(495) 565 36 66</p>
+                        <a href="#" class="header_email black_text">info@sutkihouse.ru</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="clear"></div>
+        <div class="article_div">
+            <article>
+                @RenderBody()
+            </article>
+        </div>
+        <div class="clear"></div>
+        <div class="footer-push"></div>
+    </div>
+            
+            <div class="footer_div">
+                <footer>
+                    <center>
+                        <div class="footer_el">© 2013 SutkiHouse</div>
+                        <div class="footer_el">
+                            <form action="/ru/search.htm" method="POST">
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td>
+                                            <input type="text" class="inp_1000" name="flat_id" value="Поиск по id" onfocus="this.value='';">
+                                        </td>
+                                        <td style="padding-left: 10px;">
+                                            <img id="submit_search" src="~/Content/images/lupa-24x24.png" alt="Найти">
+                                    </tr>
+                                </table>
+                            </form>
+
+                        </div>
+                        <div class="footer_el fe_r"></div>
+                    </center>
+                </footer>
+            </div>
+       
+    
+</body>
+</html>

@@ -1,0 +1,449 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bcms.css" rel="stylesheet" />
+    <link href="~/Content/feature-carousel.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.js"></script>
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/main_js.js"></script>
+    <script src="~/Scripts/common.js"></script>
+</head>
+<body>
+    <div id="main_div">
+        <div class="nav_div">
+            <nav>
+                <div class="main_menu">
+                    <a href="@Url.Action("ReserverAndPaid","Home")"><div class="main_menu_el mm_l">Бронирование и оплата</div></a>
+                    <a href="#"><div class="main_menu_el">Вопросы и ответы</div></a>
+                    <a href="#"><div class="main_menu_el"> Отзывы гостей</div></a>
+                    <a href="#"><div class="main_menu_el">Сотрудничество</div></a>
+                    <a href="#"><div class="main_menu_el">Партнеры</div></a>
+                    <a href="#"><div class="main_menu_el mm_r">Контакты</div></a>
+                </div>
+            </nav>
+        </div>
+        <div class="header_div">
+            <header>
+                <div class="header_logo">
+                    <div class="header_logo_bl hlb_left">
+                        <a href="@Url.Action("Index","Home")">
+                            <img src="~/Content/images/logo_red.png" />
+                        </a>
+                    </div>
+                    <div class="header_logo_bl hlb_center">
+                        <div style="border: 0px solid #fff; height: 20px;">
+                            <a href="">
+                                Красногорск
+                            </a>
+                            <a href="">
+                                Москва
+                            </a>
+                        </div>
+                        <div style="border: 0px solid #fff; height: 20px; margin-top: 3px; display: none;">
+                            <a href="">
+                                одна спальня
+                            </a>
+                            <a href="">
+                                две спальни
+                            </a>
+                            <a href="">
+                                три спальни
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_logo_bl hlb">
+                        <img src="~/Content/images/time_red.jpg" style="float: left; margin-right: 10px; " />
+                        <p class="header_tel">(495) 565 36 66</p>
+                        <a href="#" class="header_email">info@sutkihouse.ru</a>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="div4" style="z-indez:99999!important; width: 1000px;">
+                    <div style="position: relative; top: -10px; display: block;" id="gallery">
+                        <div style="left: 180.5px; width: 625px; height: 345px; top: 20px; opacity: 1; z-index: 4;" class="carousel-feature carousel_big_img">
+                            <a href="#">
+                                <img style="width: 625px; height: 345px;" class="carousel-image" alt="" src="~/Content/images/0_77633600_1351448634_img.jpg" href="http://test3.asp-s.ru/ru/apartamenti_s_odnoy_spalney.htm">
+                            </a>
+
+                            <div style="display: block; opacity: 0.99;" class="carousel-caption">
+
+                                <div class="info_price" style="z-index:999;">
+                                    <span>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="80%">
+                                                        <span class="price_1">3000</span>
+                                                    </td>
+                                                    <td class="currency_2">
+                                                        рублей<br>в сутки
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                    <div class="allprices">
+                                        <div class="allprices_title">
+                                            Стоимость проживания:
+                                        </div>
+                                        <div class="allprices_prices">
+                                            <p class="allprices_list">3000 р/сут<span class="allprices_list_black"> - стандартная стоимость</span></p>
+                                            <p class="allprices_list">2500 р/сут<span class="allprices_list_black"> - от 7 суток</span></p>
+                                            <p class="allprices_list">2000 р/сут<span class="allprices_list_black"> - от 30 суток</span></p>
+                                            <p class="allprices_list">2000 р/ночь<span class="allprices_list_black"> - с 21.00 до 9.00</span></p>
+                                            <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
+                                            <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div>
+                                    <p class="id_pimpa" style="" align="left">
+                                        <b class="id_p" style="margin-top: 20px !important;">ID: 01</b>
+                                    </p>
+                                    <div class="tbl">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b class="punkt">Красногорск1</b> | <b class="name">Двухкомнатные аппартаменты</b>
+                                                    </td>
+                                                </tr>
+                                                <tr height="20">
+                                                    <td class="adres_info">Адрес здесь</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div style="left: 474px; width: 512px; height: 286px; top: 50px; opacity: 0.4; z-index: 1;" class="carousel-feature carousel_small_img">
+                            <a href="http://test3.asp-s.ru/ru/1_no_komnatnaya_kvartira.htm"><img style="width: 512px; height: 286px;" class="carousel-image" alt="" src="~/Content/images/0_12312700_1418251437_img.jpg" href="http://test3.asp-s.ru/ru/1_no_komnatnaya_kvartira.htm"></a>
+                            <div style="display: none;" class="carousel-caption">
+                                <p style="padding:0; margin:0;"></p>
+                                <div class="info_price" style="z-index:999;">
+                                    <span>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="80%">
+                                                        <span class="price_1">3000</span>
+                                                    </td>
+                                                    <td class="currency_2">
+                                                        рублей<br>в сутки
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                    <div class="allprices">
+                                        <div class="allprices_title">
+                                            Стоимость проживания:
+                                        </div>
+                                        <div class="allprices_prices">
+                                            <p class="allprices_list">3000 р/сут<span class="allprices_list_black"> - стандартная стоимость</span></p>
+                                            <p class="allprices_list">2500 р/сут<span class="allprices_list_black"> - от 7 суток</span></p>
+                                            <p class="allprices_list">2000 р/сут<span class="allprices_list_black"> - от 30 суток</span></p>
+                                            <p class="allprices_list">2000 р/ночь<span class="allprices_list_black"> - с 21.00 до 9.00</span></p>
+                                            <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
+                                            <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="id_pimpa" style="" align="left">
+                                        <b class="id_p" style="margin-top: 20px !important;">ID: 01</b>
+                                    </p>
+                                    <div class="tbl">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b class="punkt">Красногорск2</b> | <b class="name">Апартаменты с одной спальней</b>
+                                                    </td>
+                                                </tr>
+                                                <tr height="20">
+                                                    <td class="adres_info">Адрес здесь</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+
+
+                        <div style="left: 474px; width: 512px; height: 286px; top: 50px; opacity: 0.4; z-index: 1;" class="carousel-feature carousel_small_img">
+                            <a href="http://test3.asp-s.ru/ru/1_no_komnatnaya_kvartira.htm"><img style="width: 512px; height: 286px;" class="carousel-image" alt="" src="~/Content/images/0_12312700_1418251437_img.jpg" href="http://test3.asp-s.ru/ru/1_no_komnatnaya_kvartira.htm"></a>
+                            <div style="display: none;" class="carousel-caption">
+                                <p style="padding:0; margin:0;"></p>
+                                <div class="info_price" style="z-index:999;">
+                                    <span>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="80%">
+                                                        <span class="price_1">3000</span>
+                                                    </td>
+                                                    <td class="currency_2">
+                                                        рублей<br>в сутки
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                    <div class="allprices">
+                                        <div class="allprices_title">
+                                            Стоимость проживания:
+                                        </div>
+                                        <div class="allprices_prices">
+                                            <p class="allprices_list">3000 р/сут<span class="allprices_list_black"> - стандартная стоимость</span></p>
+                                            <p class="allprices_list">2500 р/сут<span class="allprices_list_black"> - от 7 суток</span></p>
+                                            <p class="allprices_list">2000 р/сут<span class="allprices_list_black"> - от 30 суток</span></p>
+                                            <p class="allprices_list">2000 р/ночь<span class="allprices_list_black"> - с 21.00 до 9.00</span></p>
+                                            <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
+                                            <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="id_pimpa" style="" align="left">
+                                        <b class="id_p" style="margin-top: 20px !important;">ID: 01</b>
+                                    </p>
+                                    <div class="tbl">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b class="punkt">Красногорск3</b> | <b class="name">Апартаменты с одной спальней</b>
+                                                    </td>
+                                                </tr>
+                                                <tr height="20">
+                                                    <td class="adres_info">Адрес здесь</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div style="left: 237px; width: 512px; height: 286px; top: 50px; opacity: 0; z-index: 1;" class="carousel-feature carousel_small_img">
+                            <a href="http://test3.asp-s.ru/ru/apartaments_id_06.htm"><img style="width: 512px; height: 286px;" class="carousel-image" alt="" src="~/Content/images/0_84337400_1418026627_img.jpg" href="http://test3.asp-s.ru/ru/apartaments_id_06.htm"></a>
+                            <div style="display: none;" class="carousel-caption">
+                                <p style="padding:0; margin:0;"></p>
+                                <div class="info_price" style="z-index:999;">
+                                    <span>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="80%">
+                                                        <span class="price_1">3000</span>
+                                                    </td>
+                                                    <td class="currency_2">
+                                                        рублей<br>в сутки
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                    <div class="allprices">
+                                        <div class="allprices_title">
+                                            Стоимость проживания:
+                                        </div>
+                                        <div class="allprices_prices">
+                                            <p class="allprices_list">3000 р/сут<span class="allprices_list_black"> - стандартная стоимость</span></p>
+                                            <p class="allprices_list">2500 р/сут<span class="allprices_list_black"> - от 7 суток</span></p>
+                                            <p class="allprices_list">2000 р/сут<span class="allprices_list_black"> - от 30 суток</span></p>
+                                            <p class="allprices_list">2000 р/ночь<span class="allprices_list_black"> - с 21.00 до 9.00</span></p>
+                                            <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
+                                            <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="id_pimpa" style="" align="left">
+                                        <b class="id_p" style="margin-top: 20px !important;">ID: 01</b>
+                                    </p>
+                                    <div class="tbl">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b class="punkt">Красногорск4</b> | <b class="name">Апартаменты с одной спальней</b>
+                                                    </td>
+                                                </tr>
+                                                <tr height="20">
+                                                    <td class="adres_info">Адрес здесь</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+
+
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div style="left: 0px; width: 512px; height: 286px; top: 50px; opacity: 0.4; z-index: 1;" class="carousel-feature carousel_small_img">
+                            <a href="http://test3.asp-s.ru/ru/odnokomnatnaya_kvartira__3.htm"><img style="width: 512px; height: 286px;" class="carousel-image" alt="" src="~/Content/images/0_52061000_1418467060_img.jpg" href="http://test3.asp-s.ru/ru/odnokomnatnaya_kvartira__3.htm"></a>
+                            <div style="display: none;" class="carousel-caption">
+                                <p style="padding:0; margin:0;"></p>
+                                <div class="info_price" style="z-index:999;">
+                                    <span>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="80%">
+                                                        <span class="price_1">3000</span>
+                                                    </td>
+                                                    <td class="currency_2">
+                                                        рублей<br>в сутки
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                    <div class="allprices">
+                                        <div class="allprices_title">
+                                            Стоимость проживания:
+                                        </div>
+                                        <div class="allprices_prices">
+                                            <p class="allprices_list">3000 р/сут<span class="allprices_list_black"> - стандартная стоимость</span></p>
+                                            <p class="allprices_list">2500 р/сут<span class="allprices_list_black"> - от 7 суток</span></p>
+                                            <p class="allprices_list">2000 р/сут<span class="allprices_list_black"> - от 30 суток</span></p>
+                                            <p class="allprices_list">2000 р/ночь<span class="allprices_list_black"> - с 21.00 до 9.00</span></p>
+                                            <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
+                                            <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="id_pimpa" style="" align="left">
+                                        <b class="id_p" style="margin-top: 20px !important;">ID: 01</b>
+                                    </p>
+                                    <div class="tbl">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b class="punkt">Красногорск5</b> | <b class="name">Апартаменты с одной спальней</b>
+                                                    </td>
+                                                </tr>
+                                                <tr height="20">
+                                                    <td class="adres_info">Адрес здесь</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div style="left: 0px; width: 512px; height: 286px; top: 50px; opacity: 0.4; z-index: 1;" class="carousel-feature carousel_small_img">
+                            <a href="http://test3.asp-s.ru/ru/odnokomnatnaya_kvartira__3.htm"><img style="width: 512px; height: 286px;" class="carousel-image" alt="" src="~/Content/images/0_52061000_1418467060_img.jpg" href="http://test3.asp-s.ru/ru/odnokomnatnaya_kvartira__3.htm"></a>
+                            <div style="display: none;" class="carousel-caption">
+                                <p style="padding:0; margin:0;"></p>
+                                <div class="info_price" style="z-index:999;">
+                                    <span>
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="80%">
+                                                        <span class="price_1">3000</span>
+                                                    </td>
+                                                    <td class="currency_2">
+                                                        рублей<br>в сутки
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                    <div class="allprices">
+                                        <div class="allprices_title">
+                                            Стоимость проживания:
+                                        </div>
+                                        <div class="allprices_prices">
+                                            <p class="allprices_list">3000 р/сут<span class="allprices_list_black"> - стандартная стоимость</span></p>
+                                            <p class="allprices_list">2500 р/сут<span class="allprices_list_black"> - от 7 суток</span></p>
+                                            <p class="allprices_list">2000 р/сут<span class="allprices_list_black"> - от 30 суток</span></p>
+                                            <p class="allprices_list">2000 р/ночь<span class="allprices_list_black"> - с 21.00 до 9.00</span></p>
+                                            <p class="allprices_list">1500 р/3часа<span class="allprices_list_black"> - время любое</span></p>
+                                            <p class="allprices_list">500 р/час<span class="allprices_list_black"> - каждый последующий</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="id_pimpa" style="" align="left">
+                                        <b class="id_p" style="margin-top: 20px !important;">ID: 01</b>
+                                    </p>
+                                    <div class="tbl">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b class="punkt">Красногорск6</b> | <b class="name">Апартаменты с одной спальней</b>
+                                                    </td>
+                                                </tr>
+                                                <tr height="20">
+                                                    <td class="adres_info">Адрес здесь</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+            </header>
+        </div>
+        <div class="article_div">
+            @RenderBody()
+        </div>
+        <div class="footer_div">
+            <footer>
+                <center>
+                    <div class="footer_el">© 2014 SutkiHouse</div>
+                    <div class="footer_el">
+                        <form action="/ru/search.htm" method="POST">
+                            <table cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td>
+                                        <input type="text" class="inp_1000" name="flat_id" value="Поиск по id" onfocus="this.value='';">
+                                    </td>
+                                    <td style="padding-left: 10px;">
+                                        <img id="submit_search" src="~/Content/images/lupa-24x24.png" alt="Найти">
+                                </tr>
+                            </table>
+                        </form>
+
+                    </div>
+                    <div class="footer_el fe_r"></div>
+                </center>
+            </footer>
+        </div>
+    </div>	    
+</body>
+</html>

@@ -1,0 +1,79 @@
+﻿@{ViewBag.Title = "SutkiHouse";}
+<article>
+    <div class="left_art">
+
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top">
+                        &nbsp;
+                    </td>
+                    <td valign="top" style="font-size:24px; font-family: 'times new roman', times, serif;">
+                        Мы рады приветствовать Вас на сайте компании
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        &nbsp;
+                    </td>
+                    <td valign="top" style="font-size:24px; font-family: 'times new roman', times, serif; ">
+                        "СуткиХаус"!
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        &nbsp;
+                    </td>
+                    <td valign="top">
+                        &nbsp;
+                    </td>
+                </tr>
+                
+                @foreach (string s in ViewBag.Content.mainContext)
+                {
+                    <tr>
+                    <td valign="top">
+                        <img src="~/Content/images/galka.jpg" style="margin-top: 10px; margin-right: 20px;" height="39" width="37">
+                    </td>
+                    <td valign="top" class="main_page_info_text">
+                       @s
+                        <br/>
+                        &nbsp;
+                    </td>
+                </tr>
+                }
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="right_art">
+        <h3 style="font-size:16px !important;">
+            Забронировать - просто!
+        </h3>
+        <p class="reserv_block">
+            Для бронирования квартиры выберите любой&nbsp;удобный для Вас способ оплаты из представленных в разделе <a href="http://test3.asp-s.ru/ru/bronirovanie_i_oplata.htm">Бронирование и оплата</a>.
+        </p>
+
+        <p>
+            <a href="#">
+                <img src="~/Content/images/ps.jpg" height="97" width="259">
+            </a>
+        </p>
+
+        <br>
+        <a href="#" class="ask_and_answer_link">Вопрос - ответ</a>
+        <br><br>
+        <div class="ask_and_answer_min">
+            <div class="ask_and_answer_min_ask"><a href="#">Основным видом деятельности компании является предоставление в краткосрочную аренду жилых помещений</a></div>
+            <div class="ask_and_answer_min_auth">Автор</div>
+
+            <div class="ask_and_answer_min_ask"><a href="#">Основным видом деятельности компании является предоставление в краткосрочную аренду жилых помещений</a></div>
+            <div class="ask_and_answer_min_auth">Автор</div>
+
+            <div class="ask_and_answer_min_ask"><a href="#">Основным видом деятельности компании является предоставление в краткосрочную аренду жилых помещений</a></div>
+            <div class="ask_and_answer_min_auth">Автор </div>
+        </div>
+    </div>
+</article>
+<div class="clear"></div>
+<div class="other_div_text">@ViewBag.Content.bottomText</div>
