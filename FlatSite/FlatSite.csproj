@@ -175,6 +175,21 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\feature-carousel.css" />
+    <Content Include="Content\images\0_12312700_1418251437_img.jpg" />
+    <Content Include="Content\images\0_52061000_1418467060_img.jpg" />
+    <Content Include="Content\images\0_77633600_1351448634_img.jpg" />
+    <Content Include="Content\images\0_84337400_1418026627_img.jpg" />
+    <Content Include="Content\images\bg2.jpg" />
+    <Content Include="Content\images\galka.jpg" />
+    <Content Include="Content\images\logo_red.png" />
+    <Content Include="Content\images\logo_white - Копировать.jpg" />
+    <Content Include="Content\images\logo_white.jpg" />
+    <Content Include="Content\images\lupa-24x24 - Копировать.png" />
+    <Content Include="Content\images\lupa-24x24.png" />
+    <Content Include="Content\images\p.png" />
+    <Content Include="Content\images\ps.jpg" />
+    <Content Include="Content\images\time_red.jpg" />
+    <Content Include="Content\images\time_white.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -182,6 +197,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\SergiousCommit.pubxml" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\common.js" />
     <Content Include="Scripts\functions.js" />
@@ -234,7 +250,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
