@@ -127,7 +127,7 @@ div.ask .bottom {
 	position:absolute;
 	bottom:0px;
 	left: 115px;
-	top: -1px;
+	top: 1px;
 }
 
 .tbl .punkt{
@@ -145,7 +145,7 @@ div.ask .bottom {
 .tbl .adres_info{
 	color:#3c3c3b !important;
 	font-size:9pt;
-    padding-top: 5px;
+    padding-top: 2px;
 }
 
 .info_price {
