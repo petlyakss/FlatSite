@@ -55,7 +55,7 @@ input[type="checkbox"].input-validation-error {
 			}
 			.footer{
 				background: #C11B0B;
-				height: 130px;
+				height: 117px;
 			}
 			nav{
 				background: #A50905;
@@ -171,7 +171,7 @@ input[type="checkbox"].input-validation-error {
 			}
 			.ask_and_answer_min{
 				width: 300px;
-				height: 190px;
+				height: 155px;
 				border-radius: 5px;
 				padding: 10px;
 				padding-top: 15px;
@@ -189,7 +189,7 @@ input[type="checkbox"].input-validation-error {
 			}
 			.ask_and_answer_min_ask{
 				white-space: nowrap;
-				height: 30px;
+				height: 20px;
 				border: 0px solid #fff;
 				color: #fff;
 				overflow: hidden;
@@ -200,7 +200,7 @@ input[type="checkbox"].input-validation-error {
 				height: 20px;
 				white-space: nowrap;
 				border: 0px solid #fff;
-				margin-bottom: 10px;
+				margin-bottom: 15px;
 				text-align: right;
 				color: #fff;
 				font-style: italic; 
@@ -221,6 +221,9 @@ input[type="checkbox"].input-validation-error {
 				text-align: center;
 				margin-bottom: 15px;
                 margin-top: 10px;
+                font-family: Arial;
+                font-size: 14px;
+                color: #3C3C3B;
 			}
 			.reserv_block{
 				height: 70px;
@@ -305,15 +308,21 @@ input[type="checkbox"].input-validation-error {
 				text-align: left;
 				border: 0px solid #fff;
 				color: #fff;
-				padding-top: 50px;
+				padding-top: 44px;
 				padding-left: 50px;
 			}
+            .footer_el_p{
+                margin: 0px;
+                font-family: Arial,Tahoma,Verdana,Times New Roman;
+                padding-top: 5px;
+            }
 			.footer_el a{
 				color: #fff;
 			}
 			.fe_r{
 				width: 360px !important;	
-				padding-left: 10px !important;
+				padding-left: 0px !important;
+                text-align: center;
 			}
 			.main_page_info_text{
 				font-family: Arial,Tahoma,Verdana,Times New Roman; 
@@ -382,11 +391,11 @@ input[type="checkbox"].input-validation-error {
 		min-height: 100%;
 		height: auto !important;
 		height: 100%;
-		margin: 0 0 -130px 0; /* отрицательный нижний отступ на высоту футера */
+		margin: 0 0 -117px 0; /* отрицательный нижний отступ на высоту футера */
 		padding: 0;
 	}
 	.footer-push, .footer {
-		height: 130px;
+		height: 117px;
 		margin: 0;
 		padding: 0;
 	}
