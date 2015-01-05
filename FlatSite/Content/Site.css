@@ -350,9 +350,8 @@ input[type="checkbox"].input-validation-error {
 			.reserv_title{
 				margin-top: 0px;
 				margin-bottom: 0px;
-				line-height: 34px;
-				font-family: "Myriad Pro";
-				font-size: 32px;
+				font-family: "Arial";
+				font-size: 18pt;
 				color: #3C3C3B;
 				font-weight: normal;
 			}
@@ -399,6 +398,149 @@ input[type="checkbox"].input-validation-error {
 		margin: 0;
 		padding: 0;
 	}
-	
-            
-            
+	.quest_and_ansv_form_div{
+        width: 305px;
+        height: 480px;
+        background: #EAE7DD;
+        border-radius: 8px;
+	}
+    .quest_and_ansv_title{
+        width: 265px;
+        margin: 0px auto;
+        border: 0px solid red;
+        padding-top: 15px;
+        font-size: 15pt;
+    }
+    .quest_and_ansv_text{
+        width: 265px;
+        margin: 0px auto;
+        border: 0px solid red;
+        font-size: 14px;
+        text-align: justify;
+        padding-top: 5px;
+        font-style: italic;
+        color: #3C3C3B;
+    }
+    .quest_and_ansv_form{
+        width: 265px;
+        margin: 0px auto;
+        border: 0px solid red;
+        margin-top: 15px;
+    }
+    .quest_and_ansv_form_input{
+        width: 263px;
+        height: 27px;
+        border-radius: 4px;
+        border: 1px solid #A8A8A8;
+    }
+    .quest_and_ansv_form_big_input{
+        width: 263px;
+        height: 120px;
+        border-radius: 4px;
+        border: 1px solid #A8A8A8;
+    }
+    .quest_and_ansv_form_checkbox{
+        font-size: 11px;
+        color: #3C3C3B;
+    }
+    .quest_and_ansv_form_submit_button{
+        width: 265px;
+        text-align: center;
+        background: #3AAA35;
+        border-radius: 4px;
+        border: 0px solid green;
+        color: #fff;
+        font-size: 14pt;
+        height: 40px;
+    }
+    .quest_and_ansv_form_submit_button:hover {
+        cursor: pointer;
+    }     
+    .form_label{
+        font-style: italic;
+        font-size: 13px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        color: #3C3C3B;
+    }   
+    .quest_and_ansv_form_checkbox_inp{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .quest_and_ansv_left_div{
+        float: left;
+        width: 630px;
+        margin-left: 20px;
+        margin-top: 43px;
+        border: 0px solid red;
+    }
+    .quest_and_ansv_right_div{
+        float: right;
+        width: 305px;
+        margin-top: 43px;
+        margin-right: 20px;
+        border: 0px solid green;
+    }
+    .quest_and_ansv_block{
+        border: 0px solid red;
+        margin-bottom: 30px;
+    }
+    .quest_and_ansv_question{
+        margin-top: 0px;
+        margin-bottom: 0px;        
+    }
+    .quest_and_ansv_question a{
+        font-family: Arial,Tahoma,Verdana,sans-serif;
+        font-size: 14px;
+        color: #BE1622;
+        font-weight: bold;
+    }
+    .quest_and_ansv_answer{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #3C3C3B;
+        font-family: Arial,Tahoma,Verdana,Times New Roman;
+        font-size: 14px;
+        line-height: 1.4em;
+        text-align: justify;
+    }
+    .once_question_title{
+        font-weight: bold;        
+        font-size: 12pt;
+        margin-bottom: 0px;
+    }
+    .once_question_date_and_author{
+        text-align: right;
+        font-size: 11pt;
+        margin-top: 11px;
+    }
+    .once_question_author{
+        font-size: 11pt;
+        font-weight: bold;
+        margin-top: 22px;
+    }
+    .once_question_answer{
+        margin-left: 20px;
+        text-align: justify;
+        color: #3C3C3B;
+        font-size: 11pt;
+    }
+    .once_question_back_button_div{
+        margin: 0px auto;
+        width: 191px;
+        height: 32px;
+        background: #EDEDED;
+        text-align: center;
+        border-radius: 8px;
+        border: 1px solid #D1D1D1;
+        font-size: 14pt;
+        color: #7F7F7F;
+        padding-top: 10px;
+    }
+    .once_question_back_button_div:hover{
+        border: 1px solid #7F7F7F;
+    }
+    .new_height{
+        height: 450px;
+    }
+    
