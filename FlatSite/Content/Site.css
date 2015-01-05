@@ -541,6 +541,12 @@ input[type="checkbox"].input-validation-error {
         border: 1px solid #7F7F7F;
     }
     .new_height{
-        height: 450px;
+        height: 425px;
+    }
+    .new_margin{
+        margin-top: 20px;
+    }
+    .new_bmargin{
+        margin-bottom: 22px;
     }
     
