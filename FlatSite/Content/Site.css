@@ -134,6 +134,18 @@ input[type="checkbox"].input-validation-error {
 				background: linear-gradient(to bottom, #943938 0%,#943938 50%,#740202 51%,#740202 100%); /* W3C */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#943938', endColorstr='#740202',GradientType=0 ); /* IE6-9 */
 			}
+            .main_menu_el_active{
+				color: #fff;			
+				padding-bottom: 15px;
+				background: #943938; /* Old browsers */
+				background: -moz-linear-gradient(top, #943938 0%, #943938 50%, #740202 51%, #740202 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#943938), color-stop(50%,#943938), color-stop(51%,#740202), color-stop(100%,#740202)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #943938 0%,#943938 50%,#740202 51%,#740202 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #943938 0%,#943938 50%,#740202 51%,#740202 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #943938 0%,#943938 50%,#740202 51%,#740202 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #943938 0%,#943938 50%,#740202 51%,#740202 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#943938', endColorstr='#740202',GradientType=0 ); /* IE6-9 */
+			}
 			.left_art{
 				padding-left: 20px;
 				padding-right: 20px;

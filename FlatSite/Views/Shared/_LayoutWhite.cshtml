@@ -17,12 +17,12 @@
         <div class="nav_div white_bg">
             <nav class="white_bg">
                 <div class="main_menu">
-                    <a href="@Url.Action("ReserverAndPaid","Home")"><div class="main_menu_el mm_l">Бронирование и оплата</div></a>
-                    <a href="@Url.Action("QuestionsAndAnswers","Home")"><div class="main_menu_el">Вопросы и ответы</div></a>
-                    <a href="@Url.Action("Reviews","Home")"><div class="main_menu_el"> Отзывы гостей</div></a>
-                    <a href="@Url.Action("Cooperation","Home")"><div class="main_menu_el">Сотрудничество</div></a>
-                    <a href="@Url.Action("Partners", "Home")"><div class="main_menu_el">Партнеры</div></a>
-                    <a href="@Url.Action("Contacts","Home")"><div class="main_menu_el mm_r">Контакты</div></a>
+                    <a href="@Url.Action("ReserverAndPaid","Home")"><div class="main_menu_el mm_l @ViewBag.Active">Бронирование и оплата</div></a>
+                    <a href="@Url.Action("QuestionsAndAnswers","Home")"><div class="main_menu_el @ViewBag.Active2">Вопросы и ответы</div></a>
+                    <a href="@Url.Action("Reviews","Home")"><div class="main_menu_el @ViewBag.Active3"> Отзывы гостей</div></a>
+                    <a href="@Url.Action("Cooperation","Home")"><div class="main_menu_el @ViewBag.Active4">Сотрудничество</div></a>
+                    <a href="@Url.Action("Partners", "Home")"><div class="main_menu_el @ViewBag.Active5">Партнеры</div></a>
+                    <a href="@Url.Action("Contacts","Home")"><div class="main_menu_el mm_r @ViewBag.Active6">Контакты</div></a>
                 </div>
             </nav>
         </div>
