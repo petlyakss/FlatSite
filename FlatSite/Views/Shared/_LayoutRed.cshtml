@@ -18,13 +18,21 @@
     <div class="wrapper">
         <div class="nav_div">
             <nav>
-                <div class="main_menu">
+                <!--<div class="main_menu">
                     <a href="@Url.Action("ReserverAndPaid","Home")"><div class="main_menu_el mm_l">Бронирование и оплата</div></a>
-                    <a href="@Url.Action("QuestionsAndAnswers","Home")"><div class="main_menu_el">Вопросы и ответы</div></a>
-                    <a href="@Url.Action("Reviews","Home")"><div class="main_menu_el"> Отзывы гостей</div></a>
-                    <a href="@Url.Action("Cooperation","Home")"><div class="main_menu_el">Сотрудничество</div></a>
-                    <a href="@Url.Action("Partners", "Home")"><div class="main_menu_el">Партнеры</div></a>
+                    <a href="@Url.Action("QuestionsAndAnswers","Home")"><div class="main_menu_el main_menu_el2">Вопросы и ответы</div></a>
+                    <a href="@Url.Action("Reviews","Home")"><div class="main_menu_el main_menu_el3"> Отзывы гостей</div></a>
+                    <a href="@Url.Action("Cooperation","Home")"><div class="main_menu_el main_menu_el4">Сотрудничество</div></a>
+                    <a href="@Url.Action("Partners", "Home")"><div class="main_menu_el main_menu_el5">Партнеры</div></a>
                     <a href="@Url.Action("Contacts","Home")"><div class="main_menu_el mm_r">Контакты</div></a>
+                </div>-->
+                <div class="main_menu_bg_div">
+                    <a href="@Url.Action("ReserverAndPaid","Home")"><div class="main_menu_el main_menu_r_border m_m_el_1 @ViewBag.Active">Бронирование и оплата</div></a>
+                    <a href="@Url.Action("QuestionsAndAnswers","Home")"><div class="main_menu_el main_menu_r_border m_m_el_2 @ViewBag.Active2">Вопросы и ответы</div></a>
+                    <a href="@Url.Action("Reviews","Home")"><div class="main_menu_el main_menu_r_border m_m_el_3 @ViewBag.Active3">Отзывы гостей</div></a>
+                    <a href="@Url.Action("Cooperation","Home")"><div class="main_menu_el main_menu_r_border m_m_el_4 @ViewBag.Active4">Сотрудничество</div></a>
+                    <a href="@Url.Action("Partners", "Home")"><div class="main_menu_el main_menu_r_border m_m_el_5 @ViewBag.Active5">Партнеры</div></a>
+                    <a href="@Url.Action("Contacts","Home")"><div class="main_menu_el m_m_el_6 @ViewBag.Active6">Контакты</div></a>
                 </div>
             </nav>
         </div>
