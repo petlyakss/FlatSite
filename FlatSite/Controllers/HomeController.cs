@@ -46,6 +46,9 @@ namespace FlatSite.Controllers
         {
             return View();
         }
-        
+        public ActionResult Flat()
+        {
+            return View();
+        }
     }
 }
