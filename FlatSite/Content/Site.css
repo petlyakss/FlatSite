@@ -845,3 +845,64 @@ input[type="checkbox"].input-validation-error {
         padding: 10px 0 10px 0;
         border-radius: 8px;
     }
+    /* */
+     .flat_options_main_div{
+	width: 640px;
+	border: 0px solid red;
+	padding-top: 0px;
+    margin-top: 50px;
+}
+.flat_options_left_div{
+	float: left;
+	border: 0px solid green;
+	padding-top: 0px;
+}
+.flat_options_right_div ul{
+	border: 0px solid yellow;
+	padding-left: 0px;
+	padding-top: 0px;
+    font-size: 14px;
+}
+.flat_options_left_div ul{
+	border: 0px solid yellow;
+	padding-left: 0px;
+	padding-top: 0px;
+    font-size: 14px;
+}
+    .flat_options_left_div ul li {
+        color: #BD1522;
+        cursor: pointer;
+    }
+    .flat_options_right_div ul li {
+        color: #BD1522;
+        cursor: pointer;
+    }
+     .flat_options_right_div ul li span{
+        color: #000;
+    }
+     .flat_options_left_div ul li span{
+        color: #000;
+    }
+.flat_options_right_div{
+	float: left;
+	border: 0px solid blue;
+	margin-top: 0px;
+}
+	.flat_options_div{
+		width: 270px;
+		border: 0px solid red;
+		padding: 3px 3px 3px 40px;
+	}
+	.img-option{
+			border: 8px solid #f5f5f5;
+			-webkit-border-radius: 20px;
+			-moz-border-radius: 20px;
+			border-radius: 20px;
+}
+	.flat_options_div:hover{
+		background: #EDEDED;
+		border-radius: 6px;
+		padding: 3px 3px 3px 40px;
+		position: relative;
+		z-index: 1;
+	}
