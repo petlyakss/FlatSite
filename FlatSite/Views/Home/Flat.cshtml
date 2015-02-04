@@ -742,22 +742,92 @@
 </div>
 
 
-<div style="border: 0px solid red; margin-bottom: 20px;">
+<div style="border: 0px solid red; margin: 0px auto; margin-top: 47px; margin-bottom: 72px; width: 920px;">
     <div class="similars_flats">
         <p class="similars_flats_top_p">Красногорск</p>
         <p>Двухкомнатная квартира</p>
         <img src="~/Content/images/0_12312700_1418251437_img.jpg" />
-        <div>
+        <div style="margin-bottom: 11px;">
             <div class="id_in_similar">
                 ID: 01
             </div>
             <div class="price_in_similar">
-                d
+                <div class="price_in_similar_price">
+                    6000
+                </div>
+                <div class="price_in_similar_text">
+                    рублей<br/>в сутки
+                </div>
+                <div class="clear"></div>
             </div>
             <div class="clear"></div>
-        </div>
-        <p>ул. Подмосковный б-р д.12</p>
+            <p style="margin-top: 11px;">ул. Подмосковный б-р д.12</p>
+        </div>        
     </div>
+    <div class="similars_flats similars_flats_margin">
+        <p class="similars_flats_top_p">Красногорск</p>
+        <p>Двухкомнатная квартира</p>
+        <img src="~/Content/images/0_12312700_1418251437_img.jpg" />
+        <div style="margin-bottom: 11px;">
+            <div class="id_in_similar">
+                ID: 01
+            </div>
+            <div class="price_in_similar">
+                <div class="price_in_similar_price">
+                    6000
+                </div>
+                <div class="price_in_similar_text">
+                    рублей<br />в сутки
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <p style="margin-top: 11px;">ул. Подмосковный б-р д.12</p>
+        </div>
+    </div>
+    <div class="similars_flats similars_flats_margin">
+        <p class="similars_flats_top_p">Красногорск</p>
+        <p>Двухкомнатная квартира</p>
+        <img src="~/Content/images/0_12312700_1418251437_img.jpg" />
+        <div style="margin-bottom: 11px;">
+            <div class="id_in_similar">
+                ID: 01
+            </div>
+            <div class="price_in_similar">
+                <div class="price_in_similar_price">
+                    6000
+                </div>
+                <div class="price_in_similar_text">
+                    рублей<br />в сутки
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <p style="margin-top: 11px;">ул. Подмосковный б-р д.12</p>
+        </div>
+    </div>
+    <div class="similars_flats similars_flats_margin">
+        <p class="similars_flats_top_p">Красногорск</p>
+        <p>Двухкомнатная квартира</p>
+        <img src="~/Content/images/0_12312700_1418251437_img.jpg" />
+        <div style="margin-bottom: 11px;">
+            <div class="id_in_similar">
+                ID: 01
+            </div>
+            <div class="price_in_similar">
+                <div class="price_in_similar_price">
+                    6000
+                </div>
+                <div class="price_in_similar_text">
+                    рублей<br />в сутки
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <p style="margin-top: 11px;">ул. Подмосковный б-р д.12</p>
+        </div>
+    </div>
+    <div class="clear"></div>
 </div>
 
 
@@ -1031,7 +1101,53 @@
                 }
             }
 });
+        // Вызов галереи
 
+        p = $('.popup__overlay')
+        $('.flat_options_div').click(function () {
+            p.css('display', 'block');
+            Flat_slider_main_function(true, $(this).attr('id'));
+        });
+        p.click(function (event) {
+            e = event || window.event
+            if (e.target == this) {
+                $(p).css('display', 'none');
+                for (var i = 0; i < number_of_img; i++) {
+                    delete_border(i);
+                }
+                counters(0);
+                shifts(0);
+                img_counter = 0;
+                shift_counter = 0;
+                tmp_counter = 0;
+                img_change(0);
+                new_n = 0;
+                current_select_img = 0;
+                $(".slide-wrap").css("left", 0);
+            }
+        });
+        $('.popup__close').click(function () {
+            p.css('display', 'none');
+             for (var i = 0; i < number_of_img; i++){
+                delete_border(i);
+            }
+            counters(0);
+            shifts(0);
+            img_counter = 0;
+            shift_counter = 0;
+            tmp_counter = 0;
+            img_change(0);
+            new_n = 0;
+            current_select_img = 0;
+            $(".slide-wrap").css("left", 0);
+        });
+        $('a#flat_big_img_top_slider').click(function (event) {
+            event.preventDefault();
+            p.css('display', 'block');
+            Flat_slider_main_function(false, $(this).attr('id'));
+        });
+
+        //
 }
 
 

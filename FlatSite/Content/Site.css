@@ -1194,11 +1194,18 @@ input[type="checkbox"].input-validation-error {
 }
 /*Похожие квартиры*/
 .similars_flats{
-    height: 190px;
-    width: 180px;
-    border: 2px solid #E6E6E6;
+    height: 206px;
+    width: 177px;
     border-radius: 10px;
     padding: 22px 11px 22px 11px;
+    float: left;
+}
+.similars_flats_margin{
+    margin-left: 40px;
+}
+.similars_flats:hover{
+    border: 2px solid #E6E6E6;
+    cursor: pointer;
 }
 .similars_flats p{
     font-family: Arial;
@@ -1237,6 +1244,30 @@ input[type="checkbox"].input-validation-error {
     float: left;
 }
 .price_in_similar{          
-     background: url(images/p.png) #39AA35 no-repeat; 
+     background: url(images/p2.png) #39AA35 no-repeat; 
      float: left;
+     margin-left: 11px;
+     width: 83px;
+     height: 21px;
+     border-radius: 6px;
+
+     padding-top: 5px; 
+     padding-left: 17px;
+}
+.price_in_similar_price{
+    color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: Arial;
+    float: left;
+}
+.price_in_similar_text{
+    margin-left: 10px;
+    width: 30px;
+    color: #fff;
+    font-size: 5pt;
+    font-family: Arial;
+    border: 0px solid red;
+    float: left;
+    text-align: justify;
 }
