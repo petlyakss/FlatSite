@@ -742,7 +742,7 @@
 </div>
 
 
-<div style="border: 0px solid red; margin: 0px auto; margin-top: 47px; margin-bottom: 72px; width: 920px;">
+<div id="similars_flats_div" style="border: 0px solid red; margin: 0px auto; margin-top: 47px; margin-bottom: 72px; width: 940px;">
     <div class="similars_flats">
         <p class="similars_flats_top_p">Красногорск</p>
         <p>Двухкомнатная квартира</p>
@@ -756,13 +756,13 @@
                     6000
                 </div>
                 <div class="price_in_similar_text">
-                    рублей<br/>в сутки
+                    рублей<br />в сутки
                 </div>
                 <div class="clear"></div>
             </div>
             <div class="clear"></div>
             <p style="margin-top: 11px;">ул. Подмосковный б-р д.12</p>
-        </div>        
+        </div>
     </div>
     <div class="similars_flats similars_flats_margin">
         <p class="similars_flats_top_p">Красногорск</p>
@@ -1195,12 +1195,24 @@
     $('.flat_big_img_next').mouseover(function () {
         var t = number_of_img;
         t--;
-        if ($(".flat_big_img").attr("number") == t){
+        if ($(".flat_big_img").attr("number") == t) {
         } else {
             $('.flat_big_img_next_button').css('display', 'block');
             $('.flat_big_img_next').mouseleave(function () {
                 $('.flat_big_img_next_button').css('display', 'none');
             });
         }
+    });
+
+    $(".similars_flats").mouseover(function () {
+        //$("#similars_flats_div").css("margin-bottom", "72px");
+        $("#similars_flats_div").css("margin-top", "43px");
+        $(this).css("width", "177px");
+
+            $(".similars_flats").mouseleave(function () {
+                //$("#similars_flats_div").css("margin-bottom", "72px");
+                $("#similars_flats_div").css("margin-top", "47px");
+                $(this).css("width", "181px");
+            });
     });
 </script>
