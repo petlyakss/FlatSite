@@ -489,8 +489,10 @@
 </div>
 
 <div class="clear"></div>
-
 <div class="flat_main_div" >
+    <div class="way_list_top" style="height: 15px; border: 0px solid red;">
+        <div class="way_list_top_sl" style="height: 0px; border: 0px solid red;">&nbsp;</div>
+    </div>
     <div class="flat_middle_left_div">
         <div class="flat_detail_main">
             <div class="flat_detail_title">
@@ -720,8 +722,8 @@
                 Маршруты проезда:
             </div>
             <ul class="ways_list">
-                <li><a href="#">От станции метро "Тушинская" </a></li>
-                <li><a href="#">От станции метро "Мякинино" </a></li>
+                <li><a href=".way_list_top_sl" class="way_to_flat_link">От станции метро "Тушинская" </a></li>
+                <li><a href=".way_list_top_sl" class="way_to_flat_link">От станции метро "Мякинино" </a></li>
             </ul>
         </div>
     </div>
@@ -1212,5 +1214,13 @@
         $(this).mouseleave(function () {
             $(this).css("box-shadow", "0 0 0 0 #C3C3C3");
         });
+    });
+
+    $('.way_to_flat_link').click(function () { // если в href начинается с # или ., то ловим клик
+        var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href
+        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+            $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
+        }
+        return false; // выключаем стандартное действие
     });
 </script>
