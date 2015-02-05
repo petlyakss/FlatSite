@@ -1195,10 +1195,11 @@ input[type="checkbox"].input-validation-error {
 /*Похожие квартиры*/
 .similars_flats{
     height: 206px;
-    width: 181px;
+    width: 177px;
     border-radius: 10px;
     padding: 22px 11px 22px 11px;
     float: left;
+    border: 2px solid #fff;
 }
 .similars_flats_margin{
     margin-left: 40px;
