@@ -34,7 +34,7 @@ function changeBg(img, id, color)
 		  trackerIndividual: false,
 		  sidePadding: 1,
 		  smallFeatureOffset: 30,
-		  carouselSpeed: 600, 
+		  carouselSpeed: 600,
 		  animationEasing: 'linear'
         });
 	$("#gallery").css('display', 'block');
