@@ -1321,3 +1321,10 @@ input[type="checkbox"].input-validation-error {
     margin: 0;
     padding: 0;
 }
+.price_zone{
+    border: 0px solid red; 
+    width: 125px; 
+    height: 35px;
+    margin-top: 329px; 
+    margin-left: 473px;
+}
