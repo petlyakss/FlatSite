@@ -402,11 +402,13 @@ input[type="checkbox"].input-validation-error {
             .allprices_title{
                 border-radius: 5px;
                 background: url("images/p.png") no-repeat scroll 0% 0% #39AA35;
-                height: 22px;
-                padding-top: 5px;
-                padding-bottom: 5px;
+                height: 20px;
+                padding-top: 6px;
+                padding-bottom: 6px;
                 color: #fff;
                 padding-left: 20px;
+                font-weight: bold;
+                font-size: 11pt;
             }
             .allprices_prices{
                 border: 1px solid #DDDDDD;                
